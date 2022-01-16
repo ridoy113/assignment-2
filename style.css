@@ -1,0 +1,63 @@
+body{
+    font-family: 'Berkshire Swash', cursive;
+  
+}
+header{
+    font-size: 400;
+    padding-left: 10%;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 80%;
+}
+button{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    background-color: rgba(238, 127, 146, 0.952);
+    padding: 1opx, 40px;
+    border-radius: 5px;
+    border-color: rgba(238, 127, 146, 0.952);;
+}
+.second-half{
+    text-align: center;
+    margin-top: 100px;
+}
+.menu-container{
+    display: flex;
+    margin-left: 150px;
+    flex-wrap: wrap;
+}
+.food{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px;
+    margin: 20px;
+}
+.food img{
+    width: 100%;
+}
+@media (max-width: 700px) {
+    .food{
+        background-color: rgb(189, 240, 189);
+    }
+    .menu-container{
+        flex-direction: column;
+    }
+}
+@media (min-width: 900px) {
+    .food{
+        background-color: rgba(240, 233, 174, 0.959);
+    }
+}
+.last-footer{
+    background-color: rgba(247, 132, 90, 0.911);
+    text-align: center;
+}
